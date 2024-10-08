@@ -263,6 +263,12 @@ body{
     .rodape {
         font-size: 10px;
     }
+
+    .rodape img {
+        width: 100%;
+    }
+    
+    
 }
 
 @media (max-width: 480px) {
@@ -302,5 +308,8 @@ body{
 
     .rodape {
         font-size: 9px;
+    }
+    .rodape img {
+        width: 100%;
     }
 }
