@@ -14,17 +14,17 @@ Site oficial do *I Bazar Solidário Nina*, um evento beneficente que acontecerá
 
 O site é composto por três páginas principais:
 
-1. **Home** (`home/index.html`)
+1. **Home** 
    - Apresenta informações sobre o bazar, incluindo data e objetivos.
    - Links para redes sociais e um botão de doação.
    - Imagem de destaque para atrair visitantes.
 
-2. **Sobre** (`about/index.html`)
+2. **Sobre** 
    - Detalhes sobre os objetivos e propostas do bazar.
    - Informações sobre a destinação das doações.
    - Seção com fotos dos animais que serão beneficiados.
 
-3. **Doações** (`donate/index.html`)
+3. **Doações** 
    - Orientações sobre como fazer doações de itens e monetárias.
    - Link para a plataforma de doação.
    - Imagem de destaque para reforçar a causa.
