@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #f9f7f4;
+    --cor-secundaria: #1c1c22;
+    --cor-terciaria: #dea666;
+    --cor-quaternaria: #b25e37;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    background-color: var(--cor-terciaria);
+    padding: 2%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--cor-quaternaria);
+}
+
+.apresentacao{
+    padding: 3% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto-destaque{
+    color: var(--cor-terciaria);
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    padding-right: 10px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 30px;
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__subtitulo {
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-quaternaria);
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
+}
+
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 20px;
+    
+}
+
+.apresentacao__links__doacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 20px;
+    
+}
+
+.apresentacao__links_subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 16px;
+    width: 75px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+    transition: 200ms;
+    background-color: var(--cor-terciaria);
+}
+
+.apresentacao__links__link img {
+        max-width: 50px;
+        max-height: 50px;
+        width: auto;
+        height: auto;
+}
+
+.apresentacao__links__link:hover {
+    border-color: var(--cor-quaternaria);
+    padding: 15px 10px;
+    background-color: var(--cor-quaternaria);
+}
+
+.apresentacao__fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.foto-apresentacao {
+    margin: 15px;
+    width: 500px;
+    border: solid var(--cor-quaternaria) 2px;
+    border-radius: 5%;
+    transition: 200ms;
+}
+
+.rodape {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    padding: 2%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.rodape a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    margin: 5px;
+    color: var(--cor-primaria);
+}
+
+/* Pagina de Projetos */
+
+.projetos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.projetos__lista {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%  1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition: 100ms;
+    }
+
+.projeto__projetos__titulo {
+    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.projeto__projetos__texto {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;    
+}
